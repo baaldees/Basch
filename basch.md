@@ -1,4 +1,4 @@
-# Basch
+# Bash
 
 ## Introduction
 
@@ -72,7 +72,7 @@ pour exécuter le script
 
 ## Les condistions
 
-le `if`
+##### Le `if`
 
 `if [[ $SAISI == "yes" ]]; then`
 
@@ -82,11 +82,20 @@ le `if`
 
 `fi`
 
+### Opérateurs pratiques :
+
+-f : tester l'existence d'un fichier
+
+-d : tester l'existence d'un répertoire
+
+-z : tester si une chaine est vide
+
+-r / -w : tester si un fichier est accessible en lecture / écriture
+
+
 ## Comparaison de nombre
 
-[[ ]] (( ))
-
-|  | |  |
+| [[ ]] | | (( )) |
 | --- | --- | --- |
 | -eg | == | est égal |
 | -ne | !=  | n'est pas égal à |
@@ -94,3 +103,14 @@ le `if`
 | -ge | >=  | est plus grand ou égal à |
 | -lt | <   | est plus petit que |
 | -le | <=  | est plus petit ou égal à |
+
+Exemple
+
+![legen]
+
+##### Le `fi`
+
+En Bash, le mot-clé "fi" est utilisé pour marquer la fin d'une structure de contrôle "if".
+
+"fi" est simplement "if" écrit à l'envers.
+
