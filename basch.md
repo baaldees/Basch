@@ -18,11 +18,11 @@ L'extention de fichier est par convention `.sh`
 
 * Pour rendre le fichier exécutable faite :
 
-    `chmod +x le_nom_du_fichier.sh`
+       `chmod +x le_nom_du_fichier.sh`
 
 * Pour exécuter le fichier :
 
-    `./le nom_du_fichier.sh`
+        `./le nom_du_fichier.sh`
 
 ## Un premier script
 
@@ -206,3 +206,28 @@ Créer un script qui a pour but la création d'un dossier. Le nom du dossier est
     `fi`
 
 photo tp_3
+![Legend]
+
+## TP perso
+
+Script pour supprimer un dossier
+
+        `#!/bin/bash`
+
+        `if (( $# == 0 )); then`
+
+            `read -p "Saisir le nom du dossier à supprimer : " dossier`
+
+        `else`
+
+            `dossier="$1"`
+
+        `fi`
+
+        `if [ -d "$dossier" ]; then`
+
+            `rm -r "$dossier"`
+
+            `echo "le dossie $dossier est supprimer"`
+
+            `fi`
