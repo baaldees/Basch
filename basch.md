@@ -231,3 +231,67 @@ Script pour supprimer un dossier
             `echo "le dossie $dossier est supprimer"`
 
             `fi`
+            
+## Le switch case :
+
+        `case $ENV in `
+
+        `dev)`
+
+        `echo "C'est de la dév!"`
+
+         `;;`
+
+        `stag | staging)`
+
+        `echo "C'est le recette"`
+
+        `;;`
+
+        `prod | production | "démo utilisateur)`
+
+        `echo "attention, pas de bêtises !"`
+
+         `;;`
+
+        `*)`
+
+         `echo "Ah, je ne connais pas cet environnement.. :("`
+
+         `;;`
+
+        `esac`
+
+## La boucle `for`
+
+        ``#!/bin/bash``
+
+        ``for (( i=1; i<10; i++ )) ``
+
+        ``do``
+
+             ``echo "$i"``
+
+        ``done``
+
+Avec la commande seq (seq FIRST INCREMENT LAST) :
+
+        ``for i in $(seq 1 1 10) ``
+
+        ``do``
+
+        `echo "$i" ``
+
+        ``done `
+
+Avec n'importe quelle commande qui retourne plusieurs lignes :
+
+        `for FILE in ls /etc/;``
+
+        ``do``
+
+        ``echo $FILE``
+
+        ``done``
+
+        
