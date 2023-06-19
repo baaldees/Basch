@@ -232,7 +232,7 @@ Script pour supprimer un dossier
 
             `fi`
 
-§[legende](https://github.com/baaldees/Basch/blob/main/cour_basch/tp_perso.jpeg?raw=true)
+![legende](https://github.com/baaldees/Basch/blob/main/cour_basch/tp_perso.jpeg?raw=true)
 ## Le switch case :
 
         `case $ENV in `
