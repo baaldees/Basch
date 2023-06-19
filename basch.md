@@ -70,7 +70,7 @@ pour exécuter le script
     `echo -n "Quel est votre prénom : "`
     `read chaine``echo "Bonjour $chaine comment allez-vous ? "`
 
-![lengend] photo
+![photo](https://github.com/baaldees/Basch/blob/main/cour_basch/saisir_le_nom.jpeg?raw=true)
 
 ## Les condistions
 
@@ -108,7 +108,8 @@ pour exécuter le script
 
 Exemple
 
-![legen]
+![photo](https://github.com/baaldees/Basch/blob/main/cour_basch/Exemple.jpeg?raw=true)
+
 
 ##### Le `fi`
 
@@ -129,7 +130,7 @@ Créer un script BASH qui demande un nombre à l'utilisateur et indique si celui
     else 
         echo "Le nombres saisi est superieur à 10"fi
 
-PHOTO TP_2 ![legend]
+![legend](https://github.com/baaldees/Basch/blob/main/cour_basch/tp_2.jpeg?raw=true)
 
 Les opérateurs logiques
 
@@ -165,8 +166,7 @@ Ajuster le script du TP2 pour qu'il indique désormais si le nombre est compris 
 
     `fi`
 
-photo tp_2bis .
-![legeng]
+![legeng](https://github.com/baaldees/Basch/blob/main/cour_basch/TP_2bis.jpeg?raw=true)
 
 Les arguments
 
@@ -205,8 +205,8 @@ Créer un script qui a pour but la création d'un dossier. Le nom du dossier est
 
     `fi`
 
-photo tp_3
-![Legend]
+
+![Legend](https://github.com/baaldees/Basch/blob/main/cour_basch/TP_3.jpeg?raw=true)
 
 ## TP perso
 
@@ -231,7 +231,8 @@ Script pour supprimer un dossier
             `echo "le dossie $dossier est supprimer"`
 
             `fi`
-            
+
+§[legende](https://github.com/baaldees/Basch/blob/main/cour_basch/tp_perso.jpeg?raw=true)
 ## Le switch case :
 
         `case $ENV in `
