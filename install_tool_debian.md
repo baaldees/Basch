@@ -6,7 +6,7 @@ install_tools() {
     sudo apt-get update
 
     # Liste des outils à installer
-    tools=("sudo" "date" "update" "upgrade" "apache2" "mysql-server" "php" "nfs-common" "openssh-server" "nmap" "zip" "dnsutils" "net-tools" "tzdata" "lynx" "git" "screen" "locate" "ncdu">
+    tools=("sudo" "date" "update" "upgrade" "apache2" "mysql-server" "php" "nfs-common" "openssh-server" "nmap" "zip" "dnsutils" "net-tools" "tzdata" "lynx" "git" "screen" "locate" "ncdu" "webmin")
 
     for tool in "${tools[@]}"
     do
